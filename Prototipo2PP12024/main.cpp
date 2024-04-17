@@ -1,24 +1,27 @@
-#include <iostream> //Librerias
+#include <iostream> //Librerias y Encabezados
 #include <conio.h>
+#include "persona.h"
+#include "MenuGeneral.h"
 using namespace std;
 
 main()
 {
 
-//Ingreso Usuario
+//Login Usuario
 
-    persona userRegistrado;
+
+    persona usuarioRegistrado;
     bool accesoUsuario;
-    accesoUsuario = userRegistrado.loginPersona();
+    accesoUsuario = usuarioRegistrado.loginPersona();
     if (accesoUsuario)
-    {
-        int opciones;
-        bool repetir = true;
-        do
         {
-
-        }while (repetir);
-    }
+    int opciones;
+    bool repetir = true;
+    do
+    {
+        MenuGeneral Menu;
+        Menu.menuPrincipal();
+    }while (repetir);}
 
     getch();
 	return 0;
