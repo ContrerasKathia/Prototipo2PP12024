@@ -1,5 +1,5 @@
 #include "MenuGeneral.h"
-#include "Persona.h"
+
 #include <cstdlib>
 using namespace std;
 
