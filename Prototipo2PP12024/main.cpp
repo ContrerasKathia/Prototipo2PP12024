@@ -1,9 +1,25 @@
-#include <iostream>
-
+#include <iostream> //Librerias
+#include <conio.h>
 using namespace std;
 
-int main()
+main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+
+//Ingreso Usuario
+
+    persona userRegistrado;
+    bool accesoUsuario;
+    accesoUsuario = userRegistrado.loginPersona();
+    if (accesoUsuario)
+    {
+        int opciones;
+        bool repetir = true;
+        do
+        {
+
+        }while (repetir);
+    }
+
+    getch();
+	return 0;
 }
