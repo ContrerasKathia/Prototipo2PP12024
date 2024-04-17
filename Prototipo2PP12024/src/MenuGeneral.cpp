@@ -1,5 +1,6 @@
 #include "MenuGeneral.h"
-
+#include "cliente.h"
+#include "usuario.h"
 #include <cstdlib>
 using namespace std;
 
@@ -34,10 +35,10 @@ void MenuGeneral::menuPrincipal()
     switch (options)
     {
 case 1:
-
+    subMenuCatalogos();
     break;
 case 2:
-
+    subMenuInformes();
     break;
 case 3:
     exit(0);
@@ -51,11 +52,13 @@ default:
 //Muestra el submenu Catalogos
 void MenuGeneral::subMenuCatalogos()
 {
-
+    Usuario rama;
+    rama.menu();
 }
 
 //Muestra los archivos de informe
 void MenuGeneral::subMenuInformes()
 {
-
+    Usuario rama; //clase persona objeto rama cambiar clase ahora es cliente
+    rama.desplegar();
 }

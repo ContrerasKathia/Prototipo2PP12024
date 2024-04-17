@@ -1,6 +1,6 @@
 #include <iostream> //Librerias y Encabezados
 #include <conio.h>
-#include "persona.h"
+#include "Usuario.h"
 #include "MenuGeneral.h"
 using namespace std;
 
@@ -10,7 +10,7 @@ main()
 //Login Usuario
 
 
-    persona usuarioRegistrado;
+    Usuario usuarioRegistrado;
     bool accesoUsuario;
     accesoUsuario = usuarioRegistrado.loginPersona();
     if (accesoUsuario)
