@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1713370989 source:c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\parcial2\prototipo2pp12024\prototipo2pp12024\src\cliente.cpp
+	"Cliente.h"
+
+1713371248 c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\parcial2\prototipo2pp12024\prototipo2pp12024\include\cliente.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713372398 source:c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\parcial2\prototipo2pp12024\prototipo2pp12024\src\usuario.cpp
+	"Usuario.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713372398 c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\parcial2\prototipo2pp12024\prototipo2pp12024\include\usuario.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1713371280 source:c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\parcial2\prototipo2pp12024\prototipo2pp12024\main.cpp
+	<iostream>
+	<conio.h>
+	"Usuario.h"
+	"MenuGeneral.h"
+
+1713370197 c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\parcial2\prototipo2pp12024\prototipo2pp12024\include\menugeneral.h
+	<iostream>
+	<cstdlib>
+
+1713371332 source:c:\users\cluba\onedrive\documents\kat ing\semetre3\progra\progra1\parcial2\prototipo2pp12024\prototipo2pp12024\src\menugeneral.cpp
+	"MenuGeneral.h"
+	"cliente.h"
+	"usuario.h"
+	<cstdlib>
+
